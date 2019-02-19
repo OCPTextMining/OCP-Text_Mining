@@ -1,0 +1,1 @@
+1. Mikolov, Sutskever, Chen, Corrado, Dean. Distributed Representations of Words and Phrases and their Compositionality. https://arxiv.org/pdf/1310.4546.pdf. Skip-gram model extensions (word phrases, sub-sampling frequent words, negative sampling)

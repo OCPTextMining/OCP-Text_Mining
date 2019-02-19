@@ -1,0 +1,27 @@
+Work Plan:
+
+1. Extracting tables from pdf files and making sense of them
+
+2. Better extraction of text. Right now, the extracted text contains text from objects like footnotes and headers and
+we need to get rid of these.
+
+3. Better classification of entities. Using n-grams, if we can identify entities, convert them to one word objects
+that are easily identifiable by the triple extractor, then the triples will be better.
+    3a. Perhaps use word2phrase to identify word bigrams and trigrams and then make use of dbpedia objects to identify
+     entities.
+    3b. can we use word phrases for relationships as well? Needs to be explored.
+
+4. Bigger data set. We are close to getting more data from researchgrid
+
+5. Better parsing of sentences. Does a sentence make grammatical sense (can it be parsed)? Can we work on identifying
+parts of speech to get a better sense of entities and relationships in the text?
+
+6. Break long sentences into shorter, pithier, ones
+
+7. triples identification
+    7a. other methods for identifying triples. For example, word2vec to find object pairs in sentences and then
+    extract relationships
+
+8. Literature search:
+    7a. Knowledge Graphs - the current state of research (Riya can work on collecting survey papers)
+    7b. Natural Language Processing -  representational learning from natural language text
